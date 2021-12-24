@@ -17,8 +17,6 @@ for worker in range(len(FileContent)):
     
     x = []
     y = []
-    mM = []
-    dic = {}
     suma = 0
 
     for i in range(len(dias)):
@@ -29,7 +27,6 @@ for worker in range(len(FileContent)):
         y.append((dias[i].split(hou))[-1])
         m = int(y[i][0:2])
         M = int(y[i][6:8])
-        dic.update({x[i]:[m,M]})
 
         if x[i] in weekend:
             flag = 2
