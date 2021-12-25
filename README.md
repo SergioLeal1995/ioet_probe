@@ -1,6 +1,7 @@
 # Overview
 
 This code was develop in Python whit an input, process, output arquitecture. Also in order to rehuse code a module was implemented whose is incharged to do the validation about how much  per day the company will pay to the employee, and finally each value per day is save in a collect variable allowing to know during the working days the salary of the employee. To finish, the output is show in console whit each employee and their respective salary.
+README file has the problem in order to put in context the reader, the explanation of the arquitecture giving an overview about how the problem was on board, approach and metodology which is in charge to explain details of the solving process and finally how to run the code.
 
 # Problem
 The company ACME offers their employees the flexibility to work the hours they want. They will pay for the hours worked based on the day of the week and time of day, according to the following table:
